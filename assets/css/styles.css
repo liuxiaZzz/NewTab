@@ -39,35 +39,37 @@ h1, h2{
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
-	text-align: left;
+	/*text-align: left;*/
 }
 
-h2, h3, h4{
+/*h2, h3, h4{
     text-transform: uppercase;
-}
+}*/
 
 h1{
-	font-size: 4em;
+	/*font-size: 4em;*/
+	font-size: 40px;
 	font-weight: 700;
 	margin-bottom: 0.5em;
 }
 
 h2{
-	font-size: 16px;
-	height: 30px;
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 0.5em;
 	
 }
 
 h3{
 	font-size: 20px;
-	font-weight: 900;
-	height: 10px;
+	font-weight: 500;
+	margin-bottom: 0.5em;
 }
 
 h4{
-	font-size: 1.1em;
-	font-weight: 400;
-	height: 10px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 0.5em;
 }
 
 a{
@@ -88,7 +90,7 @@ a:hover{
 
 /* FORMS */
 
-input{
+/*input{
 	background-color: transparent;
 	border: 0;
 	border-bottom: thin solid var(--color-text-acc);
@@ -97,15 +99,39 @@ input{
 	height: 3.5em;
 	transition: all 0.4s ease;
 	width: 100%;
+}*/
+
+input{
+	background-color: transparent;
+    outline-style: none ;
+    /*border: thin solid #ccc; */
+    border: none;
+    border-radius: 3px;
+    padding: 13px 14px;
+    width: 620px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+    transition: all 0.4s ease;
+	width: 100%;
+	border-bottom: thin solid #66afe9;
+	color: var(--color-text-acc);
 }
 
-input:focus{
-	color-border: var(--color-text-pri);
-	outline: none;
-}
-
-input:focus{
+/*input:focus{
+	color-border: var(--color-text-acc);
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
 	opacity: 1;
+}*/
+
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    opacity: 1;
 }
 
 
@@ -193,6 +219,7 @@ table a{
 #header{
 	border-bottom: 0px solid var(--color-text-acc);
 	z-index: 1;
+	text-align: center;
 }
 
 #apps_loop{
@@ -235,13 +262,13 @@ table a{
 .apps_text a{
 	font-size: 1em;
 	font-weight: 500;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .apps_text span{
 	color: var(--color-text-acc);
 	font-size: 0.8em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 

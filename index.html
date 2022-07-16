@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SUI</title>
+    <title>New Tab</title>
     <meta charset="utf-8">
     <meta name="description" content="a startpage for your server and / or new tab page">
     <meta http-equiv="Default-Style" content="">
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
     <link type="text/css" rel="stylesheet" href="./assets/css/styles.css"  media="screen,projection"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+    <link rel = "icon" href = "./assets/images/user.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
@@ -27,7 +28,7 @@
 
             <div id="modal-theme">
                 <button data-theme="blackboard" class="theme-button theme-blackboard">Blackboard</button>
-                <button data-theme="gazette" class="theme-button theme-gazette">Gazette</button>
+                <button data-theme="gazette" class="theme-button theme-gazette">f</button>
                 <button data-theme="espresso" class="theme-button theme-espresso">Espresso</button>
                 <button data-theme="cab" class="theme-button theme-cab">Cab</button>
                 <button data-theme="cloud" class="theme-button theme-cloud">Cloud</button>
@@ -59,8 +60,8 @@
             </section>
 
             <header id="modal-footer">
-                <a href="https://github.com/jeroenpardon/"><span class="iconify" data-icon="mdi-github-box"></span></a>
-                <a href="https://materialdesignicons.com/"><span class="iconify" data-icon="mdi-material-design"></span></a>
+                <!-- <a href="https://github.com/gaojunbin/"><span class="iconify" data-icon="mdi-github-box"></span></a>
+                <a href="https://materialdesignicons.com/"><span class="iconify" data-icon="mdi-material-design"></span></a> -->
             </header>
         </div>
     </section>
@@ -68,13 +69,17 @@
     <main id="container" class="fade">
 
         <section id="search">
-            <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)">
+            <input name="keywords" type="text" id="keywords" placeholder="Search in Google (Default). See more details in the Options button on the left bottom." size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)">
         </section>
 
         <section id="header">
-            <h2 id="header_date"></h2>
-            <h1 id="header_greet"></h1>
+            <h1 id="header_time"></h1>
+            <h2 id="header_greet"></h2>
+            <!-- TODO: add weather forecast -->
+            <!-- <h4 id="header_forecast"></h4> -->
+            <h4 id="header_date"></h4>
         </section>
+
 
         <section id="apps">
             <script type="text/handlebars-template" id="apps-template">
@@ -122,6 +127,11 @@
     <script src="./assets/js/script.js" type="text/javascript"></script>
     <script src="./assets/js/themer.js" type="text/javascript"></script>
     <script src="./assets/js/search.js" type="text/javascript"></script>
+
+    <p class="copyright" align="center">Click <a href="https://github.com/gaojunbin/NewTab">here</a> to see more details on GitHub project page. </p>
+
+    <p class="copyright" align="center">CopyRight © 2022 Junbin Gao All Rights Reserved. | <a href="http://www.beian.miit.gov.cn/">冀ICP备20001527号</a> </p>
+
 
 </body>
 </html>

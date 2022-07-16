@@ -1,9 +1,18 @@
-## SUI
-*a startpage for your server and / or new tab page*
+# NewTab
+a startpage for your server and / or new tab page.
 
-![screenshot](https://i.imgur.com/J4d7Q3D.png)
+Folked from [https://github.com/jeroenpardon/sui](https://github.com/jeroenpardon/sui)
 
-[More screenshots](https://imgur.com/a/FDVRIyw)
+<!--![screenshot](https://i.imgur.com/J4d7Q3D.png)
+
+[More screenshots](https://imgur.com/a/FDVRIyw)-->
+
+## News
+**2022.07.16** Support real-time time display.
+
+**2022.07.15** Refactoring the interface.
+
+## Usage
 
 ### Deploy with Docker compose
 
@@ -32,7 +41,7 @@ To run at a different port open edit docker-compose.yml:
  
 
 
-### Customization
+## Customization
 
 #### Changing color themes
  - Click the options button on the left bottom

@@ -1,143 +1,100 @@
 {
             "bookmarks" : [
               {
-                "category": "Communicate",
-                "links": [
-                  {
-                    "name": "Discord",
-                    "url": "https://discord.com"
-                  },
-                  {
-                    "name": "Gmail",
-                    "url": "http://gmail.com"
-                  },
-                  {
-                    "name": "Slack",
-                    "url": "https://slack.com/signin",
-                    "target": "_blank"
-                  }
-                ]
-              },
-              {
-                "category": "Cloud",
-                "links": [
-                  {
-                    "name": "Box",
-                    "url": "https://box.com",
-                    "target": "sui"
-                  },
-                  {
-                    "name": "Dropbox",
-                    "url": "https://dropbox.com",
-                    "target": "sui"
-                  },
-                  {
-                    "name": "Drive",
-                    "url": "https://drive.google.com"
-                  }
-                ]
-              },
-              {
-                "category": "Design",
-                "links": [
-                  {
-                    "name": "Awwwards",
-                    "url": "https://awwwards.com"
-                  },
-                  {
-                    "name": "Dribbble",
-                    "url": "https://dribbble.com"
-                  },
-                  {
-                    "name": "Muz.li",
-                    "url": "https://medium.muz.li/"
-                  }
-                ]
-              },
-              {
                 "category": "Dev",
                 "links": [
                   {
-                    "name": "Codepen",
-                    "url": "https://codepen.io/"
+                    "name": "Github",
+                    "url": "https://github.com"
                   },
                   {
-                    "name": "Devdocs",
-                    "url": "https://devdocs.io"
+                    "name": "Gitee",
+                    "url": "https://gitee.com"
                   },
                   {
-                    "name": "Devhints",
-                    "url": "https://devhints.io"
+                    "name": "GitLab",
+                    "url": "https://gitlab.com"
                   }
                 ]
               },
               {
-                "category": "Lifestyle",
+                "category": "CV related",
                 "links": [
                   {
-                    "name": "Design Milk",
-                    "url": "https://design-milk.com/category/interior-design/"
+                    "name": "arxiv-CV papers",
+                    "url": "https://arxiv.org/list/cs.CV/recent"
                   },
                   {
-                    "name": "Dwell",
-                    "url": "https://www.dwell.com/"
+                    "name": "CSRankings",
+                    "url": "https://csrankings.org/#/index?all&asia"
                   },
                   {
-                    "name": "Freshome",
-                    "url": "https://www.mymove.com/freshome/"
+                    "name": "CCF conference ddl",
+                    "url": "https://ccfddl.github.io"
                   }
                 ]
               },
               {
-                "category": "Media",
+                "category": "Scholar",
                 "links": [
                   {
-                    "name": "Spotify",
-                    "url": "http://browse.spotify.com"
+                    "name": "Google Scholar",
+                    "url": "https://scholar.google.com"
                   },
                   {
-                    "name": "Trakt",
-                    "url": "http://trakt.tv"
-                  },
-                  {
-                    "name": "YouTube",
-                    "url": "https://youtube.com/feed/subscriptions"
+                    "name": "中国知网",
+                    "url": "https://www.cnki.net"
                   }
                 ]
               },
               {
-                "category": "Reading",
+                "category": "Publication",
                 "links": [
                   {
-                    "name": "Instapaper",
-                    "url": "https://www.instapaper.com/u"
+                    "name": "Web of Science",
+                    "url": "https://www.webofscience.com/"
                   },
                   {
-                    "name": "Medium",
-                    "url": "http://medium.com"
+                    "name": "中科院分区",
+                    "url": "https://www.fenqubiao.com"
                   },
                   {
-                    "name": "Reddit",
-                    "url": "http://reddit.com"
+                    "name": "中国计算机学会",
+                    "url": "https://www.ccf.org.cn/Academic_Evaluation/AI"
                   }
                 ]
               },
               {
-                "category": "Tech",
+                "category": "HUST",
                 "links": [
                   {
-                    "name": "TheNextWeb",
-                    "url": "https://thenextweb.com/"
+                    "name": "自动化学院",
+                    "url": "http://aia.hust.edu.cn"
                   },
                   {
-                    "name": "The Verge",
-                    "url": "https://theverge.com/"
+                    "name": "研究生院",
+                    "url": "http://gs.hust.edu.cn"
                   },
                   {
-                    "name": "MIT Technology Review",
-                    "url": "https://www.technologyreview.com/"
+                    "name": "Prof. Zeng",
+                    "url": "http://aia.hust.edu.cn/info/1208/4819.htm"
                   }
+                ]
+              },
+              {
+                "category": "Abroad",
+                "links": [
+                  {
+                    "name": "中国国家留学基金委",
+                    "url": "https://www.csc.edu.cn"
+                  },
+                  {
+                    "name": "一亩三分地",
+                    "url": "https://www.1point3acres.com"
+                  }
+                  
                 ]
               }
+              
             ]
         }
