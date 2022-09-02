@@ -93,12 +93,14 @@ function search(text) {
                     break;
             }
         }
-    } else if (validURL(text)) {
-        if (containsProtocol(text))
-            window.location = text;
-        else
-            window.location = "http://" + text;
-    } else {
+    } 
+    // else if (validURL(text)) {
+    //     if (containsProtocol(text))
+    //         window.location = text;
+    //     else
+    //         window.location = "http://" + text;
+    // } 
+    else {
         window.location = sengine + text;
     }
 }

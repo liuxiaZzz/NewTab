@@ -1,6 +1,32 @@
 {
             "bookmarks" : [
               {
+                "category": "NUS",
+                "links": [
+                  {
+                    "name": "Medicine",
+                    "url": "https://medicine.nus.edu.sg/graduatestudies/prospective-students/"
+                  },
+                  {
+                    "name": "Science",
+                    "url": "https://www.science.nus.edu.sg/graduates/phd"
+                  }
+                ]
+              },
+              {
+                "category": "Liulab",
+                "links": [
+                  {
+                    "name": "OneDrive",
+                    "url": "https://nusu-my.sharepoint.com/personal/bliu_nus_edu_sg/_layouts/15/onedrive.aspx?ga=1"
+                  },
+                  {
+                    "name": "GitHub",
+                    "url": "https://github.com/boxiangliulab"
+                  }
+                ]
+              },
+              {
                 "category": "Dev",
                 "links": [
                   {
@@ -14,23 +40,6 @@
                   {
                     "name": "GitLab",
                     "url": "https://gitlab.com"
-                  }
-                ]
-              },
-              {
-                "category": "CV related",
-                "links": [
-                  {
-                    "name": "arxiv-CV papers",
-                    "url": "https://arxiv.org/list/cs.CV/recent"
-                  },
-                  {
-                    "name": "CSRankings",
-                    "url": "https://csrankings.org/#/index?all&asia"
-                  },
-                  {
-                    "name": "CCF conference ddl",
-                    "url": "https://ccfddl.github.io"
                   }
                 ]
               },
@@ -91,6 +100,20 @@
                   {
                     "name": "一亩三分地",
                     "url": "https://www.1point3acres.com"
+                  }
+                  
+                ]
+              },
+              {
+                "category": "English",
+                "links": [
+                  {
+                    "name": "IELTS",
+                    "url": "https://www.chinaielts.org"
+                  },
+                  {
+                    "name": "GRE",
+                    "url": "https://gre-main.neea.cn/"
                   }
                   
                 ]
