@@ -8,6 +8,9 @@ Folked from [https://github.com/jeroenpardon/sui](https://github.com/jeroenpardo
 [More screenshots](https://imgur.com/a/FDVRIyw)-->
 
 ## News
+
+**2023.07.09** Support docker-compose.
+
 **2022.07.16** Support real-time time display.
 
 **2022.07.15** Refactoring the interface.
@@ -24,7 +27,7 @@ Folked from [https://github.com/jeroenpardon/sui](https://github.com/jeroenpardo
 
  - `git clone` this repository
  - Build and bring up with `docker-compose up -d`
- - The page should be available at  `http://localhost:4000`
+ - The page should be available at  `http://localhost:8015`
 
 To run at a different port open edit docker-compose.yml:
 

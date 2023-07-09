@@ -1,24 +1,14 @@
-version: "3.5"
+version: "3.3"
 services:
 
   sui:
-    container_name: sui
+    container_name: NewTab
     restart: always
     build:
       context: ./
     environment:
       - VIRTUAL_HOST=test.laserr.net
-    networks:
-      - nginx-proxy
-      - public
     ports:
-      - 4000:80
+      - 8015:80
     volumes:
       - ./:/opt/html
-
-networks:
-  nginx-proxy:
-    external: true
-  public:
-    external:
-      name: public
