@@ -10,12 +10,24 @@
                   {
                     "name": "ICA",
                     "url": "https://eservices.ica.gov.sg/solar/index.xhtml"
+                  },
+                  {
+                    "name": "EduRec",
+                    "url": "https://myedurec.nus.edu.sg"
                   }
                 ]
               },
               {
                 "category": "Liulab",
                 "links": [
+                  {
+                    "name": "Zoom",
+                    "url": "https://nus-sg.zoom.us/my/genomicdatascience"
+                  },
+                  {
+                    "name": "LabWeb",
+                    "url": "https://boxiangliulab.com"
+                  },
                   {
                     "name": "OneDrive",
                     "url": "https://nusu-my.sharepoint.com/personal/bliu_nus_edu_sg/_layouts/15/onedrive.aspx?ga=1"
@@ -27,35 +39,93 @@
                 ]
               },
               {
-                "category": "My Repo",
+                "category": "MyGithub",
                 "links": [
                   {
-                    "name": "HomeWeb",
-                    "url": "https://github.com/gaojunbin/HomeWeb"
+                    "name": "My Stars",
+                    "url": "https://github.com/gaojunbin?tab=stars"
                   },
                   {
                     "name": "GCR",
                     "url": "https://github.com/gaojunbin/GCR"
+                  },
+                  {
+                    "name": "HomeWeb",
+                    "url": "https://github.com/gaojunbin/HomeWeb"
                   }
                 ]
               },
               {
-                "category": "Domain Web",
+                "category": "Domain",
                 "links": [
                   {
                     "name": "Google Domain",
                     "url": "https://domains.google"
                   },
                   {
-                    "name": "Sav",
-                    "url": "https://www.sav.com"
-                  },
-                  {
                     "name": "dynadot",
                     "url": "https://www.dynadot.com"
+                  },
+                  {
+                    "name": "Sav",
+                    "url": "https://www.sav.com"
+                  }
+                  {
+                    "name": "Name",
+                    "url": "https://www.name.com"
+                  }
+                ]
+              },
+              {
+                "category": "VPS",
+                "links": [
+                  {
+                    "name": "Google Cloud",
+                    "url": "https://cloud.google.com"
+                  },
+                  {
+                    "name": "DigitalOcean",
+                    "url": "https://www.digitalocean.com"
+                  },
+                  {
+                    "name": "RackNerd",
+                    "url": "https://www.racknerd.com"
+                  },
+                  {
+                    "name": "CLOUDCONE",
+                    "url": "https://cloudcone.com"
+                  }
+                ]
+              },
+              {
+                "category": "VPS 2",
+                "links": [
+                  {
+                    "name": "Amazon AWS",
+                    "url": "https://aws.amazon.com"
+                  },
+                  {
+                    "name": "Microsoft Azure",
+                    "url": "https://azure.microsoft.com"
+                  },
+                  {
+                    "name": "Bandwagon",
+                    "url": "https://bandwagonhost.com"
+                  }
+                ]
+              },
+              {
+                "category": "VPS Discount",
+                "links": [
+                  {
+                    "name": "RackNerd",
+                    "url": "https://my.racknerd.com/index.php?rp=/store"
+                  },
+                  {
+                    "name": "CLOUDCONE",
+                    "url": "https://hello.cloudcone.com"
                   }
                 ]
               }
-              
             ]
         }

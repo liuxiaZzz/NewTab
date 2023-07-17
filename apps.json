@@ -1,13 +1,16 @@
 {
     "apps" : [
-        {"name":"HomeWeb","url":"www.junbin.xyz","icon":"home-circle-outline", "target": "_blank"},
-        {"name":"HomeWeb-OverLeaf","url":"www.junbin.xyz:8080","icon":"book"},
-        {"name":"LocalHost","url":"localhost","icon":"laptop"},
-        {"name":"OneHust","url":"pass.hust.edu.cn","icon":"numeric-1-circle-outline"},
-        {"name":"MyGitHub","url":"github.com/gaojunbin","icon":"github"},
-        {"name":"Wifi-THU","url":"172.16.100.1:8887","icon":"wifi"},
-        {"name":"Wifi-HUST","url":"myself.hust.edu.cn","icon":"wifi"},
-        {"name":"arxiv-CV papers","url":"arxiv.org/list/cs.CV/recent","icon":"note-text"},
-        {"name":"NUS-Liu Lab","url":"www.boxiangliulab.com","icon":"database"}
+        {"name":"HomeWeb","url":"www.junbingao.com","icon":"home-circle-outline"},
+        {"name":"Proxy Manager","url":"proxy.junbingao.com","icon":"arrow-decision"},
+        {"name":"JunbinDrive","url":"drive.junbingao.com","icon":"google-drive"},
+        {"name":"Server Status","url":"status.junbingao.com","icon":"cloud-alert-outline"},
+        {"name":"GitHub Junbin","url":"github.com/gaojunbin","icon":"github"},
+        {"name":"Frp","url":"frp.junbingao.com","icon":"arrow-decision-auto-outline"},
+        {"name":"Junbin ChatGPT","url":"chatgpt.junbingao.com","icon":"chat"},
+        {"name":"ChatGPT","url":"openai.com/blog/chatgpt","icon":"chat"},
+        {"name":"Junbin OverLeaf","url":"overleaf.junbingao.com","icon":"leaf"},
+        {"name":"Hust Overleaf","url":"hustoverleaf.junbingao.com","icon":"leaf"},
+        {"name":"Overleaf","url":"www.overleaf.com","icon":"leaf"},
+        {"name":"Youtube","url":"www.youtube.com","icon":"youtube"}
     ]
 }
