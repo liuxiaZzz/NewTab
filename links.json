@@ -126,6 +126,27 @@
                     "url": "https://hello.cloudcone.com"
                   }
                 ]
+              },
+              {
+                "category": "CreditCard",
+                "links": [
+                  {
+                    "name": "OKX",
+                    "url": "https://www.okx.com"
+                  },
+                  {
+                    "name": "Dupay",
+                    "url": "https://www.dupay.one"
+                  },
+                  {
+                    "name": "OneKey",
+                    "url": "https://card.onekey.so"
+                  },
+                  {
+                    "name": "oldubil",
+                    "url": "https://www.oldubil.com.tr"
+                  }
+                ]
               }
             ]
         }
