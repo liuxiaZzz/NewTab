@@ -84,6 +84,10 @@
                 "category": "VPS",
                 "links": [
                   {
+                    "name": "Bandwagon",
+                    "url": "https://bandwagonhost.com"
+                  },
+                  {
                     "name": "RackNerd",
                     "url": "https://www.racknerd.com"
                   },
@@ -94,6 +98,23 @@
                   {
                     "name": "DigitalOcean",
                     "url": "https://www.digitalocean.com"
+                  }
+                ]
+              },
+              {
+                "category": "VPS 2",
+                "links": [
+                  {
+                    "name": "DMIT",
+                    "url": "https://dmit.io"
+                  },
+                  {
+                    "name": "AkkoCloud",
+                    "url": "https://www.akkocloud.com/"
+                  },
+                  {
+                    "name": "Google Cloud",
+                    "url": "https://cloud.google.com"
                   },
                   {
                     "name": "Vultr",
@@ -102,29 +123,12 @@
                 ]
               },
               {
-                "category": "VPS 2",
-                "links": [
-                  {
-                    "name": "Google Cloud",
-                    "url": "https://cloud.google.com"
-                  },
-                  {
-                    "name": "Microsoft Azure",
-                    "url": "https://azure.microsoft.com"
-                  },
-                  {
-                    "name": "Amazon AWS",
-                    "url": "https://aws.amazon.com"
-                  },
-                  {
-                    "name": "Bandwagon",
-                    "url": "https://bandwagonhost.com"
-                  }
-                ]
-              },
-              {
                 "category": "VPS Discount",
                 "links": [
+                  {
+                    "name": "Bandwagon",
+                    "url": "https://stock.bwg.net/"
+                  },
                   {
                     "name": "RackNerd",
                     "url": "https://my.racknerd.com/index.php?rp=/store"
@@ -132,16 +136,7 @@
                   {
                     "name": "CLOUDCONE",
                     "url": "https://hello.cloudcone.com"
-                  },
-                  {
-                    "name": "DigitalOcean_Account",
-                    "url": "https://ka.deeomail.com"
-                  },
-                  {
-                    "name": "Github Student",
-                    "url": "https://az100.me"
                   }
-                  
                 ]
               },
               {
