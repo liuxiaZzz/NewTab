@@ -1,14 +1,12 @@
-version: "3.3"
+version: '3'
 services:
-
-  sui:
-    container_name: NewTab
-    restart: always
+  NewTab:
     build:
-      context: ./
-    environment:
-      - VIRTUAL_HOST=test.laserr.net
+      context: .
+      dockerfile: Dockerfile
+    container_name: NewTab
+    restart: unless-stopped
+    volumes:
+      - ./:/var/www/html
     ports:
       - 8015:80
-    volumes:
-      - ./:/opt/html

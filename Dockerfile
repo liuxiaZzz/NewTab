@@ -1,11 +1,13 @@
-FROM busybox
+FROM centos:centos7
+MAINTAINER Junbin Gao
 
-LABEL maintainer="Jeroen Pardon"
+# install web server
+RUN yum install -y httpd php mysql mysql-server
 
-WORKDIR /opt/html
+#TODO config mysql to support login
 
-COPY . /opt/html
-
+# expose tcp:80 port
 EXPOSE 80
 
-ENTRYPOINT [ "httpd", "-f", "-v", "-u", "1000" ]
+# start apache
+CMD /usr/sbin/httpd -D FOREGROUND
