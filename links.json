@@ -119,12 +119,21 @@
                 ]
               },
               {
-                "category": "Others",
+                "category": "Residential IP",
                 "links": [
                   {
-                    "name": "Residential IP",
+                    "name": "IP2World",
                     "url": "https://www.ip2world.com"
                   },
+                  {
+                    "name": "IPRoyal",
+                    "url": "https://iproyal.com"
+                  }
+                ]
+              },
+              {
+                "category": "Others",
+                "links": [
                   {
                     "name": "Google Domain",
                     "url": "https://domains.google"
