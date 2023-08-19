@@ -1,10 +1,10 @@
 version: '3'
 services:
-  NewTab:
+  newtab:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: NewTab
+    container_name: newtab
     restart: unless-stopped
     volumes:
       - ./:/var/www/html
