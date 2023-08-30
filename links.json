@@ -109,6 +109,10 @@
                     "url": "https://www.digitalocean.com"
                   },
                   {
+                    "name": "Hetzner",
+                    "url": "https://www.hetzner.com"
+                  },
+                  {
                     "name": "Google Cloud",
                     "url": "https://cloud.google.com"
                   },
