@@ -4,20 +4,20 @@
                 "category": "NUS",
                 "links": [
                   {
-                    "name": "Apply",
-                    "url": "https://inetapps.nus.edu.sg/gda2/Home.aspx"
-                  },
-                  {
-                    "name": "ICA",
-                    "url": "https://eservices.ica.gov.sg/solar/index.xhtml"
+                    "name": "Canvas",
+                    "url": "https://canvas.nus.edu.sg"
                   },
                   {
                     "name": "EduRec",
                     "url": "https://myedurec.nus.edu.sg"
                   },
                   {
-                    "name": "NSCC",
-                    "url": "https://help.nscc.sg"
+                    "name": "NUS Modes",
+                    "url": "https://nusmods.com/timetable/sem-1"
+                  },
+                  {
+                    "name": "EVS",
+                    "url": "https://nus-utown.evs.com.sg"
                   }
                 ]
               },
@@ -29,16 +29,16 @@
                     "url": "https://nus-sg.zoom.us/my/genomicdatascience"
                   },
                   {
+                    "name": "GitHub",
+                    "url": "https://github.com/boxiangliulab"
+                  },
+                  {
                     "name": "LabWeb",
                     "url": "https://boxiangliulab.com"
                   },
                   {
                     "name": "OneDrive",
                     "url": "https://nusu-my.sharepoint.com/personal/bliu_nus_edu_sg/_layouts/15/onedrive.aspx?ga=1"
-                  },
-                  {
-                    "name": "GitHub",
-                    "url": "https://github.com/boxiangliulab"
                   }
                 ]
               },
@@ -59,45 +59,25 @@
                   }
                 ]
               },
+              
               {
-                "category": "CreditCard",
+                "category": "VPS 1",
                 "links": [
                   {
-                    "name": "OneKey",
-                    "url": "https://card.onekey.so"
+                    "name": "DMIT",
+                    "url": "https://www.dmit.io"
                   },
-                  {
-                    "name": "Dupay",
-                    "url": "https://www.dupay.one"
-                  },
-                  {
-                    "name": "OKX",
-                    "url": "https://www.okx.com"
-                  },
-                  {
-                    "name": "oldubil",
-                    "url": "https://www.oldubil.com.tr"
-                  }
-                ]
-              },
-              {
-                "category": "VPS",
-                "links": [
                   {
                     "name": "Bandwagon",
                     "url": "https://bandwagonhost.com"
                   },
                   {
-                    "name": "DMIT",
-                    "url": "https://dmit.io"
+                    "name": "GreenCloud",
+                    "url": "https://greencloudvps.com"
                   },
                   {
-                    "name": "CLOUDCONE",
-                    "url": "https://cloudcone.com"
-                  },
-                  {
-                    "name": "RackNerd",
-                    "url": "https://www.racknerd.com"
+                    "name": "crunchbits",
+                    "url": "https://crunchbits.com"
                   }
                 ]
               },
@@ -123,27 +103,18 @@
                 ]
               },
               {
-                "category": "Residential IP",
+                "category": "Others",
                 "links": [
                   {
                     "name": "IP2World",
                     "url": "https://www.ip2world.com"
                   },
                   {
-                    "name": "IPRoyal",
-                    "url": "https://iproyal.com"
-                  }
-                ]
-              },
-              {
-                "category": "Others",
-                "links": [
-                  {
-                    "name": "Google Domain",
-                    "url": "https://domains.google"
+                    "name": "Cloudflare",
+                    "url": "https://www.cloudflare.com/zh-cn/"
                   },
                   {
-                    "name": "VPS Disscussion",
+                    "name": "nodeseek",
                     "url": "https://www.nodeseek.com"
                   }
                 ]
