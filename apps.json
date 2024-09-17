@@ -1,20 +1,20 @@
 {
     "apps" : [
-        {"name":"Proxy Manager","url":"https://proxy.junbingao.com","icon":"arrow-decision"},
-        {"name":"HomeWeb","url":"https://junbingao.com","icon":"home-circle-outline"},
-        {"name":"JunbinDrive","url":"https://drive.junbingao.com","icon":"google-drive"},
-        {"name":"GitHub Junbin","url":"https://github.com/gaojunbin","icon":"github"},
-        {"name":"Frp-HK","url":"https://frp.junbingao.com","icon":"arrow-decision-auto-outline"},
-        {"name":"Frp-SG","url":"https://frpsg.junbingao.com","icon":"arrow-decision-auto-outline"},
+        {"name":"Proxy Manager","url":"proxy.junbingao.com","icon":"arrow-decision"},
+        {"name":"HomeWeb","url":"junbingao.com","icon":"home-circle-outline"},
+        {"name":"JunbinDrive","url":"drive.junbingao.com","icon":"google-drive"},
+        {"name":"GitHub Junbin","url":"github.com/gaojunbin","icon":"github"},
+        {"name":"Frp-HK","url":"frp.junbingao.com","icon":"arrow-decision-auto-outline"},
+        {"name":"Frp-SG","url":"frpsg.junbingao.com","icon":"arrow-decision-auto-outline"},
         {"name":"WebMonitor","url":"webmonitor.junbingao.com","icon":"eye-check-outline"},
-        {"name":"Backup", "url":"https://duplicati.junbingao.com", "icon":"backup-restore"},
-        {"name":"emby", "url":"https://emby.junbingao.com", "icon":"emby"},
-        {"name":"gcopy", "url":"https://gcopy.junbingao.com", "icon":"clipboard"},
-        {"name":"GCR", "url":"https://gcr.junbingao.com", "icon":"powershell"},
-        {"name":"Image", "url":"https://image.junbingao.com", "icon":"image-area"},
-        {"name":"Money", "url":"https://money.junbingao.com", "icon":"currency-usd"},
-        {"name":"NAS", "url":"https://nas.junbingao.com", "icon":"nas"},
-        {"name":"Nastool", "url":"https://nastool.junbingao.com", "icon":"multimedia"},
-        {"name":"Password", "url":"https://password.junbingao.com", "icon":"onepassword"}
+        {"name":"Backup", "url":"duplicati.junbingao.com", "icon":"backup-restore"},
+        {"name":"emby", "url":"emby.junbingao.com", "icon":"emby"},
+        {"name":"gcopy", "url":"gcopy.junbingao.com", "icon":"clipboard"},
+        {"name":"GCR", "url":"gcr.junbingao.com", "icon":"powershell"},
+        {"name":"Image", "url":"image.junbingao.com", "icon":"image-area"},
+        {"name":"Money", "url":"money.junbingao.com", "icon":"currency-usd"},
+        {"name":"NAS", "url":"nas.junbingao.com", "icon":"nas"},
+        {"name":"Nastool", "url":"nastool.junbingao.com", "icon":"multimedia"},
+        {"name":"Password", "url":"password.junbingao.com", "icon":"onepassword"}
     ]
 }
