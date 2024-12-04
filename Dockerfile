@@ -1,13 +1,16 @@
 FROM centos:centos7
-MAINTAINER Junbin Gao
+MAINTAINER Shibo
 
-# install web server
-RUN yum install -y httpd php mysql mysql-server
+# 替换为阿里云镜像源以解决 yum 失败问题
+RUN sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/CentOS-Base.repo && \
+    sed -i 's|^#baseurl=http://mirror.centos.org|baseurl=http://mirrors.aliyun.com|g' /etc/yum.repos.d/CentOS-Base.repo && \
+    yum clean all && yum makecache
 
-#TODO config mysql to support login
+# 安装 HTTPD、PHP 和 MySQL
+RUN yum install -y httpd php mariadb-server && yum clean all
 
-# expose tcp:80 port
+# 暴露 80 端口
 EXPOSE 80
 
-# start apache
-CMD /usr/sbin/httpd -D FOREGROUND
+# 启动 Apache 服务
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
