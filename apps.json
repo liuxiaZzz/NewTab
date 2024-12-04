@@ -1,5 +1,7 @@
 {
     "apps" : [
+        {"name":"CN youtube","url":"bilibili.com","icon":"youtube"},
+        {"name":"Godgpt","url":"chatgpt.com","icon":"robot"},
         {"name":"SG Proxy Manager","url":"sgproxy.liuxiazhige.com","icon":"arrow-decision"},
         {"name":"HK Proxy Manager","url":"hkproxy.liuxiazhige.com","icon":"arrow-decision"},
         {"name":"My GitHub","url":"github.com/liuxiaZzz","icon":"github"},
