@@ -42,23 +42,6 @@
                   }
                 ]
               },
-              {
-                "category": "MyGithub",
-                "links": [
-                  {
-                    "name": "My Stars",
-                    "url": "https://github.com/gaojunbin?tab=stars"
-                  },
-                  {
-                    "name": "GCR",
-                    "url": "https://github.com/gaojunbin/GCR"
-                  },
-                  {
-                    "name": "HomeWeb",
-                    "url": "https://github.com/gaojunbin/HomeWeb"
-                  }
-                ]
-              },
               
               {
                 "category": "VPS 1",
