@@ -15,16 +15,16 @@ function greet() {
   let greet = Math.floor(currentTime.getHours() / 6);
   switch (greet) {
     case 0:
-      document.getElementById("header_greet").innerHTML = "Good night, Junbin!";
+      document.getElementById("header_greet").innerHTML = "Good night, Liu Xia!";
       break;
     case 1:
-      document.getElementById("header_greet").innerHTML = "Good morning, Junbin!";
+      document.getElementById("header_greet").innerHTML = "Good morning, Liu Xia!";
       break;
     case 2:
-      document.getElementById("header_greet").innerHTML = "Good afternoon, Junbin!";
+      document.getElementById("header_greet").innerHTML = "Good afternoon, Liu Xia!";
       break;
     case 3:
-      document.getElementById("header_greet").innerHTML = "Good evening, Junbin!";
+      document.getElementById("header_greet").innerHTML = "Good evening, Liu Xia!";
       break;
   }
 }
